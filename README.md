@@ -1,6 +1,6 @@
 # 🏥 Predicción de Costos Médicos (EDA & Regresión)
 
-Este proyecto implementa un flujo completo de Ciencia de Datos basado en el análisis de Kaggle **[EDA + Regression](https://www.kaggle.com/code/hely333/eda-regression)**. Incluye un análisis exploratorio de datos, entrenamiento de modelos de Machine Learning y una aplicación web interactiva desarrollada con **Streamlit**.
+Este proyecto implementa un flujo completo de Ciencia de Datos basado. Incluye un análisis exploratorio de datos, entrenamiento de modelos de Machine Learning y una aplicación web interactiva desarrollada con **Streamlit**.
 
 ## 📁 Contenido del Repositorio
 - `app.py`: Dashboard analítico e interfaz interactiva en Streamlit.
