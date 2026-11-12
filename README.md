@@ -1,14 +1,41 @@
-# 🏥 Predicción de Costos Médicos (EDA & Regresión)
+<img width="11520" height="3456" alt="Banner_notebooks" src="./Assets/banner_p7.jpg" />
 
-Este proyecto implementa un flujo completo de Ciencia de Datos basado. Incluye un análisis exploratorio de datos, entrenamiento de modelos de Machine Learning y una aplicación web interactiva desarrollada con **Streamlit**.
+# EDA + Regresión
+# 🏥 Predicción de Costos Médicos
 
-## 📁 Contenido del Repositorio
-- `app.py`: Dashboard analítico e interfaz interactiva en Streamlit.
-- `edaregression.ipynb`: Cuaderno de Jupyter con el EDA y entrenamiento de modelos paso a paso.
-- `insurance.csv`: Dataset original con información de costos médicos de pacientes.
-- `requirements.txt`: Dependencias y librerías necesarias de Python.
-- `config.toml`: Archivo de configuración visual para el tema claro de Streamlit.
-- `README.md`: Documentación del proyecto.
+Este proyecto estudia compara los costes sanitarios entre personas fumadores y no fumadoras.
+Incluye un análisis exploratorio de datos, entrenamiento de modelos de Machine Learning y una aplicación web interactiva desarrollada con **Streamlit**.
+
+---
+
+## 👥 Equipo e Integrantes
+
+* **Integrantes:**
+  * Leidy Carolina
+  * Miguel Anthony
+  * Miguel López
+
+---
+
+## 🗂️ Estructura del Repositorio
+
+```
+.
+├── assets/                             ← agregados al proyecto
+│   └── banner_p7.jpg
+│         
+├── Data/                               ← Dataset files
+│   └── insurance.csv
+│
+├── Notebooks/
+│   └── edaregresion.ipynb              ← Cuaderno de Jupyter con el entrenamiento de datos
+│
+├── app.py                              ← Dashboard analitico e interfaz en streamlit
+├── config.toml                         ← Configuración visual de streamlit
+├── .gitignore
+├── README.md                           ← Dodumentacion del proyecto
+└── requirements.txt                    ← Dependencias y librerias necesarias
+```
 
 ---
 
