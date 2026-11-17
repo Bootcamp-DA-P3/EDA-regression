@@ -113,10 +113,14 @@ pip install -r requirements.tx
 El proyecto consta de dos pasos secuenciales para su puesta en marcha:
 
 ### Paso 1: Entrenar el modelo
-Antes de abrir la interfaz web, debes generar los archivos serializados del modelo y los codificadores ejecutando el script de entrenamiento:
-```bash
-py train.py
-```
+Antes de abrir la interfaz web, debes generar los archivos serializados del modelo y los codificadores ejecutando uno de los scripts de entrenamiento:
+
+
+| Fichero | ML |
+| :--- | :--- |
+| `train_ramdom_forest.ipynb` | ML realizado con RandomForest |
+| `train_optuna.ipynb` | ML realizado con Optuna |
+
 > **Nota:** Este comando leerá `insurance.csv`, entrenará el algoritmo y generará automáticamente `modelo_seguros.pkl` y `encoders.pkl` en la carpeta raíz.
 
 ### Paso 2: Iniciar la aplicación web en Streamlit
