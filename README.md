@@ -13,7 +13,6 @@ Incluye un análisis exploratorio de datos, en el que se compara los costes sani
 
 * **Integrantes:**
   * Leidy Carolina
-  * Miguel Anthony
   * Miguel López
 
 ---
@@ -147,66 +146,3 @@ La aplicación se abrirá automáticamente en tu navegador predeterminado (norma
 ---
 
 ⭐️ *Si este proyecto te ha resultado útil, no dudes en darle una estrella en GitHub.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## ⚡ Características Principales
-- **📊 Análisis Exploratorio de Datos (EDA):** Visualización de estadísticas descriptivas, matrices de correlación y distribuciones de costos según los hábitos de los pacientes.
-- **🤖 Modelos de Machine Learning:** Entrenamiento y comparación de rendimiento ($R^2$ Score) entre:
-  - Regresión Lineal
-  - Regresión Polinómica (Grado 2)
-  - Random Forest Regressor
-- **🔮 Simulador Interactivo (Streamlit):** Una interfaz web con KPIs en tiempo real, filtros dinámicos y un formulario para estimar los costos médicos de nuevos pacientes.
-
----
-
-## 🛠️ Instalación y Requisitos
-1. Asegúrate de tener instalado Python 3.8 o superior.
-2. Abre tu terminal, sitúate dentro de la carpeta `EDA-regression` e instala las librerías necesarias ejecutando:
-
-   pip install -r requirements.txt
-
----
-
-## 🚀 Guía de Uso
-
-### 1. Ejecutar el Dashboard Interactivo (Streamlit)
-Para abrir la aplicación web en tu navegador:
-
-   streamlit run app.py
-
-### 2. Ejecutar el Notebook de Jupyter
-Si deseas revisar o ejecutar el código paso a paso:
-
-   jupyter notebook edaregression.ipynb
